@@ -1,0 +1,143 @@
+*{
+
+      padding: 0px;
+      margin: 0px; 
+      background-color: gray;
+         
+}
+body
+         {
+         font-size:14px;
+         font-family: sans-serif;
+         line-height: 20px;
+         height: 2000px;
+
+         }
+.green 
+        {
+            background-color: green;
+            width: 600px;
+            height: 400px;
+            position: relative;
+            
+        }
+
+.red 
+       {
+            
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: absolute;
+            left: 185px;
+            top: 100px;
+        }
+
+
+.fb
+         {         
+            width: 180px;
+            position: fixed;            
+            top: 35%;
+            right: 0%;
+            transition: 1s;
+
+   }
+
+.fb:hover{
+    right: -135px;
+    cursor: pointer;
+}
+.wp
+         {         
+            width: 200px;
+            position: fixed;            
+            top: 47%;
+            right: 0%;
+            transition: 1s;
+
+   }
+
+.wp:hover{
+    right: -135px;
+    cursor: pointer;
+}
+.lk
+         {         
+            width: 180px;
+            position: fixed;            
+            top: 25%;
+            right: 0%;
+            transition: 1s;
+
+   }
+
+.lk:hover{
+    right: -135px;
+    cursor: pointer;
+}
+.pt
+         {         
+            width: 180px;
+            position: fixed;            
+            top: 60%;
+            right: 0%;
+            transition: 1s;
+
+   }
+
+.pt:hover{
+    right: -130px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
